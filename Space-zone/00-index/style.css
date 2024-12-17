@@ -48,7 +48,7 @@ nav#menu {
    
 }
 
-a {
+a.menua {
     text-decoration: none;
     color: white;
     font-size: 1rem;
@@ -66,7 +66,7 @@ a {
 
 }
 
-a:hover {
+a.menua:hover {
     border-bottom: 3px solid white;
 
 
@@ -74,9 +74,8 @@ a:hover {
 
 
 main {
-    border: 1px solid red;
     height: 460px;
-    margin-top: 190px;
+    margin-top: 180px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -85,7 +84,6 @@ main {
 }
 
 #info {
-    border: 1px solid red;
     margin-left: 140px;
     width: 450px;
     height: 365px;
@@ -118,8 +116,10 @@ main {
     
 }
 
-section#button {
-    margin-top: 105px;
+
+
+a#ex {
+    margin-top: 100px;
     height: 235px;
     width: 235px;
     background-color: white;
@@ -127,14 +127,22 @@ section#button {
     border-radius: 50%;
     text-align: center;
     line-height: 235px;
-    
+
 }
 
-a#ex {
-    color: rgb(84, 77, 77);
-    margin: auto;
-    font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+a#ex:hover {
+    padding: 1px 2px 1px 2px;
+    
 
+}
+
+p#ex1 {
+    color: #454648;
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
 }
 
