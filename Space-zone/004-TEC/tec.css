@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body,html {
+    background-image: url(../arquivos-codigos/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}
+
+#logo {
+margin-top: 55px;
+margin-left: 40px;
+max-height: 50px;
+}
+
+#linha-header {
+    background-color: rgba(255, 255, 255, 0.241);
+    border: none;
+    height: 1px;
+    width: 560px;
+    margin-top: 80px;
+    margin-left: 55px;
+   
+}
+
+nav#menu {
+    margin-top: 35px;
+    width: 800px;
+    height: 85px;
+    background-color: #bec6d93b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    
+   
+}
+
+a.menua {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 40px;
+    height: 100%;
+    line-height:85px;
+
+}
+
+.number {
+    font-weight: 800;
+    display: inline;
+    margin: 7px;
+
+}
+
+a.menua:hover {
+    border-bottom: 3px solid white;
+
+
+}
+
